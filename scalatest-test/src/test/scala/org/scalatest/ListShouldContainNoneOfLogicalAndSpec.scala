@@ -24,6 +24,8 @@ import FailureMessages._
 import Matchers._
 import exceptions.TestFailedException
 
+import scala.collection.JavaConverters._
+
 class ListShouldContainNoneOfLogicalAndSpec extends FunSpec {
 
   private val prettifier = Prettifier.default
